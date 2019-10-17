@@ -83,7 +83,5 @@ const Form = props => {
 };
 
 export default reduxForm({
-    form: "Form", // a unique identifier for this form
-    validate,
-    asyncValidate
+    form: "Form" // a unique identifier for this form
 })(Form);
